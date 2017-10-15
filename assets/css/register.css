@@ -1,0 +1,153 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	min-height: 640px;
+}
+
+#background {
+    background-image: url(../images/background/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: inline-table;
+    height: 120%;
+    width: 100%;
+    background-origin: padding-box;
+}
+
+.loginContainer * {
+	color: #fff;
+	font-weight:normal;
+	font-height:1em ;
+	box-sizing:border-box;
+	font-family:'Roboto',sans-serif;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="password"],
+#inputContainer input[type="email"]
+{
+	background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px;
+    line-height: 30px;
+    width: 100%;
+    color: #f7f8f9;
+    font-size: 18px;
+    font-family:'Roboto',sans-serif;
+
+}
+
+#inputContainer {
+    padding: 35px;
+    width: 360px;
+    float: left;
+    border-right: 0.8px solid #e9e9e9;
+    font-family:'Roboto',sans-serif;
+}
+
+#inputContainer h4{
+text-align: center;
+font-family:'Roboto',sans-serif;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 0;
+    font-size: 20px;
+    line-height: 10px;
+    border-radius: .2rem;
+    border-radius: 40px;
+    width: -webkit-fill-available;
+    width: 100%;
+    border: 1.5px solid #fff;
+    height: 40px;
+}
+
+#hideLogin{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+    padding: 1px;
+    margin-left: auto;
+    display: block;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+#hideRegister{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+    padding: 1px;
+    margin-left: auto;
+    display: block;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+#registerForm{
+	display: none;
+
+}
+
+label{
+    margin-bottom: -50px;
+     margin-top: 20px; 
+}
+
+#loginText{
+	padding: 45px;
+    display: table-cell;
+
+}
+
+#loginText h1{
+	color: #5dd88c;
+	font-size: 63px;
+	font-weight: bold;
+}
+#loginText h2{
+	margin: 25px 0;
+	font-size: 35px;
+	font-weight: bold;
+}
+#loginText ul{
+	padding: 0;
+}
+
+
+ #loginText li{
+    list-style-type: none;
+    font-size: 21px;
+    padding: 12px;
+    list-style-image: url(../images/icons/checklist.png);
+}
+
+.btn-outline-success {
+    color: #5dd88c;
+    background-color: transparent;
+    background-image: none;
+    border-color: #5dd88c;
+}
+
+.fa-sign-in:before {
+    content: "\f090";
+    color: #5dd88c;
+}
+
+.fa-user-plus::before {
+    content: "";
+    color: #5dd88c;
+}
+
+#inputContainer .errorMessage{
+	
+    color: #5dd88c;
+    font-size: 14px;
+    display: block;
+}
